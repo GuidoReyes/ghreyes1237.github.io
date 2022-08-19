@@ -81,12 +81,11 @@ p {
 }
 
 footer {
-  float: left;
   width: 100%;
   text-align: center;
   background: var(--color-fondo);
-  padding-bottom: 10rem;
-  margin-bottom: 32rem; 
+  padding: 1rem;
+  margin-bottom: 32rem;
 
 }
 .copyright {
@@ -192,6 +191,17 @@ menu a:hover {
 }
 
 @media screen and (min-width: 1024px) {
+
+  footer {
+  float:left;
+  width: 100%;
+  text-align: center;
+  background: var(--color-fondo);
+  padding: 0 15rem;
+  z-index: 1;
+  
+
+}
   .menu-btn {
     display: none;
   }
@@ -390,11 +400,32 @@ menu a:hover {
   }
   
 @media screen and (min-width: 768px) and (max-width: 1024px){
+  footer {
+  width: 100%;
+  text-align: center;
+  background: var(--color-fondo);
+  padding: 10rem;
+  margin-bottom: 32rem;
+  }
+
+.text-lg-center{
+  text-align: center;
+}
 
 .full-lg-screen {
   width: 100%;
   min-height: 100vh;
 }
+
+.text-lg-left {
+  text-align:left;
+
+}
+
+.text-lg-right {
+  text-align: right;
+}
+
 .encrypt{
     display: flexbox;
     justify-content: space-between;
@@ -522,7 +553,7 @@ menu a:hover {
 
   .botones{
     display: inline-flex;
-    margin: -60px 20px 20px 0;
+    margin: -80px 20px 20px 0;
     justify-content: space-between;
     align-content: center;
     padding: 6rem ;
