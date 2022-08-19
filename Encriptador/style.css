@@ -192,16 +192,7 @@ menu a:hover {
 
 @media screen and (min-width: 1024px) {
 
-  footer {
-  float:left;
-  width: 100%;
-  text-align: center;
-  background: var(--color-fondo);
-  padding: 0 15rem;
-  z-index: 1;
-  
 
-}
   .menu-btn {
     display: none;
   }
