@@ -27,7 +27,8 @@ function encriptar() {
     .replace(/a/gi, "ai")
     .replace(/o/gi, "ober")
     .replace(/u/gi, "ufat");
-  document.querySelector(".text-input-salida").value = textoCifrado;
+  document.querySelector(".text-input-salida").value =
+    textoCifrado.toLowerCase();
   document.querySelector("#input-texto").value;
   document.getElementById("img").style.visibility = "hidden";
   document.getElementById("texto_ocultar").style.visibility = "hidden";
@@ -43,7 +44,8 @@ function desencriptar() {
     .replace(/ai/gi, "a")
     .replace(/ober/gi, "o")
     .replace(/ufat/gi, "u");
-  document.querySelector(".text-input-salida").value = textoCifrado;
+  document.querySelector(".text-input-salida").value =
+    textoCifrado.toLowerCase();
   document.querySelector("#input-texto").value;
   document.getElementById("img").style.visibility = "hidden";
   document.getElementById("texto_ocultar").style.visibility = "hidden";
